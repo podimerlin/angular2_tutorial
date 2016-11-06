@@ -1,0 +1,12 @@
+npm install -g angular-cli
+ng new [first-app]
+ng serve
+ng generate component [component name] --inline-style --inline-template
+ng g c [another] --flat --is --it
+
+
+git 
+git init
+git add *
+git commit -m 'commit message'
+git clone https://github.com.
