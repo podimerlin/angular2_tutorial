@@ -5,11 +5,15 @@ import { HttpModule } from '@angular/http';
 
 import { AppComponent } from './app.component';
 import { DatabindingComponent } from './databinding/databinding.component';
+import { PropertyBindingComponent } from './databinding/property-binding.component';
+import { TwoWayBindingComponent } from './databinding/two-way-binding.component';
 
 @NgModule({
   declarations: [
     AppComponent,
-    DatabindingComponent
+    DatabindingComponent,
+    PropertyBindingComponent,
+    TwoWayBindingComponent
   ],
   imports: [
     BrowserModule,

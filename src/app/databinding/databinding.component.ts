@@ -9,4 +9,11 @@ export class DatabindingComponent {
     stringInterpolation = 'This is a stringInterpolation!';
     numerInterpolation = 2;
 
+    onTest() {
+        return true;
+    }
+
+    onClicked(value: string) {
+        alert(value);
+    } 
 }
